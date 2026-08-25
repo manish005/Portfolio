@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Briefcase, Calendar, MapPin, CheckCircle2, X, ExternalLink, Layers } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, CheckCircle2, X, Layers } from 'lucide-react';
 import { experience } from '../../lib/data';
 
 function ExperienceModal({ job, onClose }) {
@@ -15,15 +15,6 @@ function ExperienceModal({ job, onClose }) {
 
         <div className="modal-header">
           <span className="company-tag"><Briefcase size={13} /> {job.company}</span>
-          <a
-            href="https://github.com/manish005"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="modal-gh-link"
-            title="GitHub Profile"
-          >
-            <ExternalLink size={14} /> GitHub
-          </a>
         </div>
 
         <h2 className="modal-title">{job.title}</h2>
@@ -60,14 +51,6 @@ function ExperienceModal({ job, onClose }) {
         </div>
 
         <div className="modal-footer">
-          <a
-            href="https://github.com/manish005"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-theme-primary btn-pill btn-sm"
-          >
-            <ExternalLink size={14} /> View GitHub
-          </a>
           <button className="btn btn-theme-outline btn-pill btn-sm" onClick={onClose}>
             Close
           </button>
@@ -104,15 +87,6 @@ export default function Experience() {
                     </div>
                     <h3 className="job-role-title">{job.title}</h3>
                   </div>
-                  <a
-                    href="https://github.com/manish005"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="icon-link exp-ext-link"
-                    title="View Experience on GitHub"
-                  >
-                    <ExternalLink size={15} />
-                  </a>
                 </div>
 
                 <div className="meta-pills" style={{ marginBottom: '12px' }}>

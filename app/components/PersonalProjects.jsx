@@ -1,6 +1,6 @@
 'use client';
 
-import { Code2, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { personalProjects } from '../../lib/data';
 
 function ProjectCard({ project }) {
@@ -39,15 +39,6 @@ function ProjectCard({ project }) {
             <span className="pp-visit-btn">
               Visit Project <ArrowRight size={14} />
             </span>
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="pp-github-btn"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <Code2 size={14} /> Source
-            </a>
           </div>
         </div>
       </div>

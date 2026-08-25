@@ -1302,7 +1302,7 @@ html.is-scrolling ::-webkit-scrollbar-thumb {
   display: block;
   border-radius: 20px;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   cursor: pointer;
   text-decoration: none;
   border: 1px solid var(--border);
