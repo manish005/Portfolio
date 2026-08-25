@@ -1289,12 +1289,13 @@ html.is-scrolling ::-webkit-scrollbar-thumb {
 /* ---------- Personal Projects Section ---------- */
 .personal-projects-section {
   background: var(--bg);
+  padding: 60px 0;
 }
 
 .pp-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 20px;
 }
 
 .personal-project-card {
@@ -1302,7 +1303,7 @@ html.is-scrolling ::-webkit-scrollbar-thumb {
   display: block;
   border-radius: 20px;
   overflow: hidden;
-  height: 500px;
+  height: 320px;
   cursor: pointer;
   text-decoration: none;
   border: 1px solid var(--border);
