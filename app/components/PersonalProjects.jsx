@@ -1,6 +1,6 @@
 'use client';
 
-import { ExternalLink, Code2, ArrowRight } from 'lucide-react';
+import { Code2, ArrowRight } from 'lucide-react';
 import { personalProjects } from '../../lib/data';
 
 function ProjectCard({ project }) {
@@ -14,7 +14,6 @@ function ProjectCard({ project }) {
       {/* Front — landing page preview */}
       <div className="pp-card-front" style={{ background: project.gradient }}>
         <div className="pp-card-front-content">
-          <span className="pp-card-icon">{project.icon}</span>
           <h3 className="pp-card-name">{project.name}</h3>
           <p className="pp-card-tagline">{project.tagline}</p>
           <div className="pp-card-stack-row">
@@ -29,7 +28,6 @@ function ProjectCard({ project }) {
       {/* Overlay — slides up from bottom on hover */}
       <div className="pp-card-overlay">
         <div className="pp-overlay-content">
-          <span className="pp-overlay-icon">{project.icon}</span>
           <h3 className="pp-overlay-title">{project.name}</h3>
           <p className="pp-overlay-desc">{project.description}</p>
           <div className="pp-overlay-features">

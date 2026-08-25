@@ -1450,18 +1450,18 @@ html.is-scrolling ::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .pp-visit-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 20px;
+  padding: 10px 24px;
   border-radius: 999px;
   background: linear-gradient(135deg, var(--accent-bright) 0%, var(--accent) 100%);
   color: #08090d;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
   transition: all 0.25s ease;
 }
@@ -1474,12 +1474,12 @@ html.is-scrolling ::-webkit-scrollbar-thumb {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 999px;
   background: transparent;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   color: var(--text);
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.25s ease;
